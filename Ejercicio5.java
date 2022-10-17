@@ -7,6 +7,11 @@ public class Ejercicio5{
         double a = sc.nextDouble();
         System.out.print("Dime el valor de b: ");
         double b = sc.nextDouble();
+        if (a>0){
+            System.out.println("x = "+(-b/a));
+        }else{
+            System.out.println("Esta ecuación no tiene solución real");
+        }
         
     }
 }
