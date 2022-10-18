@@ -5,12 +5,23 @@ public class Ejercicio11{
         System.out.println("Este programa calcula los segundos que quedan hasta la hora de media noche");
         System.out.print("Dime una hora: ");
         int horas = sc.nextInt();
+        int horast = 0;
         System.out.print("Dime unos minutos: ");
         int mins = sc.nextInt();
-        if (horas<12){
-            System.out.println("");
-            System.out.println("Quedan "+(horas*60)*60+" s");
+        int minst = 0;
+        if (horas<=24 && horas>=0){
+            // System.out.println("Quedan "+(24-horas)+" horas");
+            horast = (horas*3600);
+        }else{
+            System.out.println("Escriba bien las hora");
+        }
+        if (mins<=60){
+            // System.out.println("Quedan "+(60-mins)+" minutos");
+            minst = (mins*60);
+        }else{
+            System.out.print("Escriba bien los minutos");
         }
         
+        System.out.println("Son las quedan "+((24*3600)-(horast + minst))+" s");
     }
 }
