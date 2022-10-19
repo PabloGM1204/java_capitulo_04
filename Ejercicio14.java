@@ -16,5 +16,7 @@ public class Ejercicio14{
         }else{
             System.out.println("Su número no es divisible entre 5");
         }
+        sc.close();
+
     }
 }
