@@ -23,5 +23,7 @@ public class Ejercicio11{
         }
         
         System.out.println("Son las quedan "+((24*3600)-(horast + minst))+" s");
+        sc.close();
+
     }
 }
