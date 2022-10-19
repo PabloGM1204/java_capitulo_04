@@ -12,6 +12,7 @@ public class Ejercicio5{
         }else{
             System.out.println("Esta ecuación no tiene solución real");
         }
+        sc.close();
         
     }
 }
