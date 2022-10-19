@@ -29,5 +29,7 @@ public class Ejercicio13{
 
         System.out.println("Los numeros ordenador de menor a mayor son: "+n1+" "+n2+" "+n3);
 
+        sc.close();
+
     }
 }
