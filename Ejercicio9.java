@@ -33,5 +33,7 @@ public class Ejercicio9{
               System.out.println("x2 = " + (-b - Math.sqrt(rest))/(2 * a));
             }      
         }
+        sc.close();
+
     }
 }
