@@ -17,6 +17,7 @@ public class Ejercicio2{
         if(hora>= 24 || hora<0){
             System.out.println("Escriba bien la hora");
         }
+        sc.close();
 
     }
 }
