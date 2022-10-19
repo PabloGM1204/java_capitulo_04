@@ -11,5 +11,7 @@ public class Ejercicio6{
         }else{
             System.out.println("Altura incorrecta");
         }
+        sc.close();
+
     }
 }
