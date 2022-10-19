@@ -6,5 +6,8 @@ public class Ejercicio17{
         System.out.print("Dime un número: ");
         int n = sc.nextInt();
         System.out.println("La ultima cifra de su número: "+(n%10));
+        sc.close();
     }
+
+
 }
