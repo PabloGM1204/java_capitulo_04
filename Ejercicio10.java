@@ -95,5 +95,7 @@ public class Ejercicio10{
             break;
         }
         System.out.println("Tu horoscopo es "+horoscopo);
+        sc.close();
+
     }
 }
