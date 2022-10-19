@@ -26,6 +26,7 @@ public class Ejercicio1{
                 System.out.println("Dime un dia entre el lunes y el viernes incluidos");
                 break;
         }
+        sc.close();
 
     }
 }
