@@ -21,5 +21,6 @@ public class Ejercicio18{
             System.out.println("La primera cifra es: "+(n/1000));
         }
         sc.close();
+        
     }
 }
